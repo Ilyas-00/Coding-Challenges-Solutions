@@ -66,7 +66,7 @@ var romanToInt = function(s) {
 
         if (nextValue && currentValue < nextValue) {
             result += nextValue - currentValue;
-            i++; // Skip the next symbol since it's already taken into account
+            i++; 
         } else {
             result += currentValue;
         }
