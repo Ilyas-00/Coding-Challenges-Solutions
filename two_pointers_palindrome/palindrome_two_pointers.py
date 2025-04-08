@@ -2,6 +2,14 @@
 # Écrire une fonction qui vérifie si une chaîne de caractères est un palindrome
 # en utilisant l'approche des deux pointeurs
 
+
+# La complexité temporelle est O(n), où n est le nombre de caractères dans la chaîne.
+# Cependant, notre algorithme ne fera qu'environ n/2 itérations, puisque les deux pointeurs
+# se déplacent l'un vers l'autre à chaque étape.
+
+#La complexité spatiale est O(1'), puisque nous utilisons un espace constant pour stocker deux index.
+
+
 def is_palindrome(s):
     left = 0 
     right = len(s) - 1
